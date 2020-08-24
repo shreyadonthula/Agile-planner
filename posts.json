@@ -1,0 +1,74 @@
+{
+	"Very Highly Volatile" : [
+		{
+		"Team Composition" : 0.91,
+		"Process" : 0.89,
+		"Environmental Factors" : 0.96,
+		"Team Dynamics" : 0.85 ,
+		"Expected Team" : 0.91,
+		"Intro of New Tools" : 0.96,
+		"Vendor's Defect" : 0.90,
+		"Personal Issues" : 0.98,
+		"Expected Delay in Stakeholder response" : 0.98,
+		"Expected Ambuguity in Details" : 0.95,
+		"Team member's Responsibilities outside project" : 0.98,
+		"Expected Change in Environment" : 0.97,
+		"Expected Relocation" : 0.98
+		}
+	],
+
+	"Highly Volatile" : [
+		{
+		"Team Composition" : 0.95,
+		"Process" : 0.94,
+		"Environmental Factors" : 0.98,
+		"Team Dynamics" : 0.91 ,
+		"Expected Team" : 0.95,
+		"Intro of New Tools" : 0.97,
+		"Vendor's Defect" : 0.94,
+		"Personal Issues" : 0.99,
+		"Expected Delay in Stakeholder response" : 0.96,
+		"Expected Ambuguity in Details" : 0.97,
+		"Team member's Responsibilities outside project" : 0.98,
+		"Expected Change in Environment" : 0.98,
+		"Expected Relocation" : 0.99
+		}
+
+	],
+	"Volatile" : [
+		{
+		"Team Composition" : 0.98,
+		"Process" : 0.98,
+		"Environmental Factors" : 0.99,
+		"Team Dynamics" : 0.98,
+		"Expected Team" : 0.98,
+		"Intro of New Tools" : 0.99,
+		"Vendor's Defect" : 0.98,
+		"Personal Issues" : 0.99,
+		"Expected Delay in Stakeholder response" : 0.99,
+		"Expected Ambuguity in Details" : 0.98,
+		"Team member's Responsibilities outside project" : 0.99,
+		"Expected Change in Environment" : 0.99,
+		"Expected Relocation" : 0.99
+		}
+
+	],
+	"Stable" : [
+		{
+		"Team Composition" : 1,
+		"Process" : 1,
+		"Environmental Factors" : 1,
+		"Team Dynamics" :  1,
+		"Expected Team" : 1,
+		"Intro of New Tools" : 1,
+		"Vendor's Defect" : 1,
+		"Personal Issues" : 1,
+		"Expected Delay in Stakeholder response" : 1,
+		"Expected Ambuguity in Details" : 1,
+		"Team member's Responsibilities outside project" : 1,
+		"Expected Change in Environment" : 1,
+		"Expected Relocation" : 1
+		}
+
+	]
+}
