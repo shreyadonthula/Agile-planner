@@ -4,13 +4,9 @@ const Rt = () => {
     const [tec,settec]=useState('');
     const [nstc,setnstc]=useState('');
     const [ttp,setttp]=useState('');
-
-    
-
     return (
         <form> 
         <div>
-        
             <p>Choose Change Type</p>
             <select id = "dropdown" value={ct} onChange={
                 (e)=>{setct(e.target.value)}}>
@@ -18,9 +14,7 @@ const Rt = () => {
                <option value="3">Requirement</option>
                  <option value="2">Design</option>
                 <option value="1">Code</option>
-                
-            
-             </select>
+              </select>
 
              <p>Test Execution Complexity</p>
             <select id = "dropdown" value={tec} onChange={

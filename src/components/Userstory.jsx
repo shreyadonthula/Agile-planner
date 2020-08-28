@@ -2,15 +2,21 @@ import React, { Component } from 'react'
 import { useState } from 'react';
 import {Link} from 'react-router-dom'
 
-const Userstory = () => {
-    const [storysize,setstorysize]=useState('');
+const Userstory = (props) => {
+    const [storysize,setstorysize]=useState( );
     const [storycomplexity,setstorycomplexity]=useState('');
     const [noofuserstories,setnoofuserstories]=useState('');
-    
+    React.useEffect(() => {
+      localStorage.setItem('storysizeInLocalStorage', storysize);
+      localStorage.setItem('storycomplexityInLocalStorage', storycomplexity);
+      localStorage.setItem('noofuserstories', noofuserstories);
+      console.log(localStorage.getItem(props.storypoints));
+
+    }, [storycomplexity,storysize,noofuserstories]);
+   
     return ( 
-        
             <form >
-             
+
                 <div className="story-size">
              <p> USER STORY SIZE: {storysize}</p>
             <p>
@@ -59,7 +65,7 @@ const Userstory = () => {
             <p>Calculated effort :  {storysize*storycomplexity}</p>  
            
                 Enter sub user stories: 
-                <input type="text" value={noofuserstories} onChange={(e)=>{setnoofuserstories(e.target.value)}}/>
+                <input type="text" placeholder="1-5 range" value={noofuserstories} onChange={(e)=>{setnoofuserstories(e.target.value)}}/>
 
                 <p>Total intial effort:  {storysize*storycomplexity*noofuserstories}</p>
 

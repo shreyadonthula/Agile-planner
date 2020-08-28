@@ -8,13 +8,10 @@ const OptVel = () => {
     const [Relocation,setRelocation]=useState('');
     const [TeamChanges,setTeamChanges]=useState('');
     const [vel,setvel]=useState('');
-
     return ( 
         <form>
         <div>
-
-
-        Intial velocity:
+     Intial velocity:
      <input type="text" value={vel} onChange={(e)=>{setvel(e.target.value)}}/>
             <p>DECELERATING FACTORS:</p>
             <p>Team Dynamics</p>
@@ -25,7 +22,6 @@ const OptVel = () => {
                  <option value="0.91">Highly Volatile</option>
                 <option value="0.98">Volatile</option>
                 <option value="1">Stable</option>
-            
              </select>
 
              <p>Process</p>
